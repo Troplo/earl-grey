@@ -6,9 +6,7 @@ I mostly bruteforced which colors to change by inspecting every element with und
 It's really easy to fix color inconsistencies, just use a color picker to get the color, then Inspect Element and go to the styling section. There, CTRL+F and search for the color (note that the letters must be lowercase, the colors whose letters aren't lowercase are most likely added by me)
 
 # Installation
-1. To install, first check your CustomPath by visiting the admin panel of your instance.
-
-Mine is `/var/lib/gitea//custom`. You'll need to create 3 directories. Something like `/var/lib/gitea/custom/public/css` should be your final structure.
+1. To install, first check your CustomPath by visiting the admin panel of your instance. Mine is `/var/lib/gitea/custom`. You'll need to create 3 directories. Something like `/var/lib/gitea/custom/public/css` should be your final structure.
 
 2. Clone the repository
    

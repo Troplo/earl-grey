@@ -70,7 +70,7 @@
   color: #1af;
 }
 .chroma .sb {
-  color: #40AAFF;
+  color: #a0cc75;
 }
 .chroma .dl,
 .chroma .sc {
@@ -80,7 +80,7 @@
   color: #6a737d;
 }
 .chroma .s2 {
-  color: #40AAFF;
+  color: #a0cc75;
 }
 .chroma .se {
   color: #f63;
@@ -96,7 +96,7 @@
   color: #97c;
 }
 .chroma .s1 {
-  color: #40AAFF;
+  color: #a0cc75;
 }
 .chroma .ss {
   color: #fa1;
@@ -163,20 +163,20 @@
 }
 :root {
   --color-primary: #3D84E7;
-  --color-primary-dark-1: #739cb3;
+  --color-primary-dark-1: #93b373;
   --color-primary-dark-2: #40AAFF;
-  --color-primary-dark-3: #92b4c4;
-  --color-primary-dark-4: #a1bbcd;
+  --color-primary-dark-3: #abc492;
+  --color-primary-dark-4: #b7cda1;
   --color-primary-dark-5: #cfddc1;
   --color-primary-dark-6: #e7eee0;
   --color-primary-dark-7: #f8faf6;
   --color-primary-light-1: #3D84E7;
-  --color-primary-light-2: #437aad;
-  --color-primary-light-3: #415b8b;
-  --color-primary-light-4: #25425a;
-  --color-primary-light-5: #223546;
-  --color-primary-light-6: #131923;
-  --color-primary-light-7: #06090b;
+  --color-primary-light-2: #6c8c4c;
+  --color-primary-light-3: #5f7b42;
+  --color-primary-light-4: #516939;
+  --color-primary-light-5: #364626;
+  --color-primary-light-6: #1b2313;
+  --color-primary-light-7: #080b06;
   --color-primary-alpha-10: #3683C019;
   --color-primary-alpha-20: #3683C033;
   --color-primary-alpha-30: #3683C04b;
@@ -204,15 +204,15 @@
   --color-secondary-light-2: #292c34;
   --color-secondary-light-3: #1c1e23;
   --color-secondary-light-4: #0e0f11;
-  --color-secondary-alpha-10: #2C303519;
-  --color-secondary-alpha-20: #2C303533;
-  --color-secondary-alpha-30: #2C30354b;
-  --color-secondary-alpha-40: #2C303566;
-  --color-secondary-alpha-50: #2C303580;
-  --color-secondary-alpha-60: #2C303599;
-  --color-secondary-alpha-70: #2C3035b3;
-  --color-secondary-alpha-80: #2C3035cc;
-  --color-secondary-alpha-90: #2C3035e1;
+  --color-secondary-alpha-10: #393B3F19;
+  --color-secondary-alpha-20: #393B3F33;
+  --color-secondary-alpha-30: #393B3F4b;
+  --color-secondary-alpha-40: #393B3F66;
+  --color-secondary-alpha-50: #393B3F80;
+  --color-secondary-alpha-60: #393B3F99;
+  --color-secondary-alpha-70: #393B3Fb3;
+  --color-secondary-alpha-80: #393B3Fcc;
+  --color-secondary-alpha-90: #393B3Fe1;
   --color-red: #da3737;
   --color-orange: #f17a2b;
   --color-yellow: #f3c640;
@@ -258,11 +258,11 @@
   --color-menu: #1D1F23;
   --color-card: #1D1F23;
   --color-markdown-table-row: #ffffff06;
-  --color-markdown-code-block: #2C3035;
+  --color-markdown-code-block: #24262B;
   --color-button: #1D1F23;
-  --color-code-bg: #2C3035;
+  --color-code-bg: #24262B;
   --color-shadow: #00000060;
-  --color-secondary-bg: #2C3035;
+  --color-secondary-bg: #24262B;
   --color-text-focus: #fff;
   --color-expand-button: #3c404d;
   --color-placeholder-text: #6a737d;
@@ -400,10 +400,10 @@ a.ui.ui.ui.green.label:hover {
 }
 .ui.green.button:hover,
 .ui.green.buttons .button:hover {
-  background-color: #40AAFF;
+  background-color: #a0cc75;
 }
 .ui.search > .results {
-  background: #1D1F23;
+  background: #383c4a;
   border-color: var(--color-secondary);
 }
 .ui.category.search > .results .category .result:hover,
@@ -421,7 +421,7 @@ a.ui.ui.ui.green.label:hover {
   background: #1D1F23;
 }
 .repository.file.list #repo-files-table tr:hover {
-  background-color: #393d4a !important;
+  background-color: #2C3035 !important;
 }
 .repository.file.editor.edit + .editor-preview-side,
 .repository.file.editor.edit .editor-preview,
@@ -452,11 +452,11 @@ a.ui.ui.ui.green.label:hover {
 .ui.active.button:active,
 .ui.button:active,
 .ui.button:focus {
-  background-color: #2C3035;
+  background-color: #2e3e4e;
   color: #dbdbdb;
 }
 .ui.active.button:hover {
-  background-color: #474B51;
+  background-color: #475e75;
   color: #dbdbdb;
 }
 .repository .navbar .active.item,
@@ -530,14 +530,14 @@ td.blob-hunk {
   background-color: #984646;
 }
 .ui.positive.message {
-  background-color: #48915A;
-  color: #FFFFFF;
-  box-shadow: inset 0 0 0 1px #48915A, 0 0 0 0 transparent;
+  background-color: #0d491b;
+  color: #3683C0;
+  box-shadow: inset 0 0 0 1px #2d693b, 0 0 0 0 transparent;
 }
 .ui.negative.message {
-  background-color: #E14C4C;
-  color: #FFFFFF;
-  box-shadow: inset 0 0 0 1px #E14C4C, 0 0 0 0 transparent;
+  background-color: rgba(80, 23, 17, 0.6);
+  color: #f9cbcb;
+  box-shadow: inset 0 0 0 1px rgba(121, 71, 66, 0.5), 0 0 0 0 transparent;
 }
 .ui.list .list > .item .header,
 .ui.list > .item .header {
@@ -574,8 +574,8 @@ td.blob-excerpt {
   color: #dbdbdb;
 }
 .ui.active.label {
-  background: #393d4a;
-  border-color: #393d4a;
+  background: #2C3035;
+  border-color: #2C3035;
   color: #dbdbdb;
 }
 .repository .ui.attached.message.isSigned.isVerified {
@@ -639,7 +639,7 @@ td.blob-excerpt {
   border-color: var(--color-secondary);
 }
 .ui.modal > .content {
-  background: #1D1F23;
+  background: #383c4a;
 }
 .minicolors-panel {
   background: var(--color-secondary) !important;
@@ -673,7 +673,7 @@ td.blob-excerpt {
 }
 .CodeMirror.cm-s-default .cm-property,
 .CodeMirror.cm-s-paper .cm-property {
-  color: #40AAFF;
+  color: #a0cc75;
 }
 .CodeMirror.cm-s-default .cm-header,
 .CodeMirror.cm-s-paper .cm-header {
@@ -765,13 +765,13 @@ footer .container .links > * {
 }
 .repository.release #release-list > li .detail .dot {
   background-color: #505667;
-  border-color: #1D1F23;
+  border-color: #383c4a;
 }
 .tribute-container {
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.6);
 }
 .repository .repo-header .ui.huge.breadcrumb.repo-title .repo-header-icon .avatar {
-  color: #1D1F23;
+  color: #24262B;
 }
 img[src$="/img/matrix.svg"] {
   filter: invert(80%);
@@ -811,4 +811,3 @@ img[src$="/img/matrix.svg"] {
   border: 1px solid rgba(121, 71, 66, 0.5) !important;
   border-bottom: none !important;
 }
-

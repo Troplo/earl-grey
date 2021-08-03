@@ -1,5 +1,5 @@
 # earl-grey
-Elegant dark theme for Gitea. 
+Elegant dark theme for Gitea. *Tea. Earl Grey. Hot.* 
 
 I mostly bruteforced which colors to change by inspecting every element with undesirable colors, and I ended up with a theme that I'm quite proud of. However, it will definitely have a lot of bugs, please report them and fix them!
 

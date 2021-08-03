@@ -70,7 +70,7 @@
   color: #1af;
 }
 .chroma .sb {
-  color: #a0cc75;
+  color: #40AAFF;
 }
 .chroma .dl,
 .chroma .sc {
@@ -80,7 +80,7 @@
   color: #6a737d;
 }
 .chroma .s2 {
-  color: #a0cc75;
+  color: #40AAFF;
 }
 .chroma .se {
   color: #f63;
@@ -96,7 +96,7 @@
   color: #97c;
 }
 .chroma .s1 {
-  color: #a0cc75;
+  color: #40AAFF;
 }
 .chroma .ss {
   color: #fa1;
@@ -186,7 +186,7 @@
   --color-primary-alpha-70: #3683C0b3;
   --color-primary-alpha-80: #3683C0cc;
   --color-primary-alpha-90: #3683C0e1;
-  --color-secondary: #393B3F;
+  --color-secondary: #35373B;
   --color-secondary-dark-1: #505665;
   --color-secondary-dark-2: #5b6273;
   --color-secondary-dark-3: #71798e;
@@ -204,15 +204,15 @@
   --color-secondary-light-2: #292c34;
   --color-secondary-light-3: #1c1e23;
   --color-secondary-light-4: #0e0f11;
-  --color-secondary-alpha-10: #393B3F19;
-  --color-secondary-alpha-20: #393B3F33;
-  --color-secondary-alpha-30: #393B3F4b;
-  --color-secondary-alpha-40: #393B3F66;
-  --color-secondary-alpha-50: #393B3F80;
-  --color-secondary-alpha-60: #393B3F99;
-  --color-secondary-alpha-70: #393B3Fb3;
-  --color-secondary-alpha-80: #393B3Fcc;
-  --color-secondary-alpha-90: #393B3Fe1;
+  --color-secondary-alpha-10: #35373B19;
+  --color-secondary-alpha-20: #35373B33;
+  --color-secondary-alpha-30: #35373B4b;
+  --color-secondary-alpha-40: #35373B66;
+  --color-secondary-alpha-50: #35373B80;
+  --color-secondary-alpha-60: #35373B99;
+  --color-secondary-alpha-70: #35373Bb3;
+  --color-secondary-alpha-80: #35373Bcc;
+  --color-secondary-alpha-90: #35373Be1;
   --color-red: #da3737;
   --color-orange: #f17a2b;
   --color-yellow: #f3c640;
@@ -247,10 +247,10 @@
   --color-footer: #1D1F23;
   --color-timeline: #4c525e;
   --color-input-text: #d5dbe6;
-  --color-input-background: #393B3F;
-  --color-input-border: #393B3F;
+  --color-input-background: #35373B;
+  --color-input-border: #35373B;
   --color-input-border-hover: #505667;
-  --color-navbar: #2C3035;
+  --color-navbar: #24272B;
   --color-light: #00000028;
   --color-light-border: #ffffff28;
   --color-hover: #ffffff10;
@@ -400,7 +400,7 @@ a.ui.ui.ui.green.label:hover {
 }
 .ui.green.button:hover,
 .ui.green.buttons .button:hover {
-  background-color: #a0cc75;
+  background-color: #40AAFF;
 }
 .ui.search > .results {
   background: #1D1F23;
@@ -418,7 +418,7 @@ a.ui.ui.ui.green.label:hover {
   color: #dbdbdb !important;
 }
 .repository.file.list #repo-files-table tr {
-  background: #2C3035;
+  background: #1D1F23;
 }
 .repository.file.list #repo-files-table tr:hover {
   background-color: #393d4a !important;
@@ -452,7 +452,7 @@ a.ui.ui.ui.green.label:hover {
 .ui.active.button:active,
 .ui.button:active,
 .ui.button:focus {
-  background-color: #393B3F;
+  background-color: #35373B;
   color: #dbdbdb;
 }
 .ui.active.button:hover {
@@ -673,7 +673,7 @@ td.blob-excerpt {
 }
 .CodeMirror.cm-s-default .cm-property,
 .CodeMirror.cm-s-paper .cm-property {
-  color: #a0cc75;
+  color: #40AAFF;
 }
 .CodeMirror.cm-s-default .cm-header,
 .CodeMirror.cm-s-paper .cm-header {
@@ -771,7 +771,7 @@ footer .container .links > * {
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.6);
 }
 .repository .repo-header .ui.huge.breadcrumb.repo-title .repo-header-icon .avatar {
-  color: #2C3035;
+  color: #1D1F23;
 }
 img[src$="/img/matrix.svg"] {
   filter: invert(80%);

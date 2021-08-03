@@ -1,9 +1,0 @@
-#383c4a - main body color
-#2a2e3a - navbar/repo
-#454a57 - headers n shit + borders
-#2e323e - the actual navbar lol
-#87ab63 - disgusting green
-#2e323e - footer n shit
-#292d39 - input fields?
-
-btw: #E14C4C is a cool red

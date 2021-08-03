@@ -6,13 +6,25 @@ I mostly bruteforced which colors to change by inspecting every element with und
 It's really easy to fix color inconsistencies, just use a color picker to get the color, then Inspect Element and go to the styling section. There, CTRL+F and search for the color (note that the letters must be lowercase, the colors whose letters aren't lowercase are most likely added by me)
 
 # Installation
-1. To install, first check your CustomPath by typing:
-`gitea help`
-Mine is `/usr/local/bin/custom`. You'll need to create 3 directories.
-`/usr/local/bin/custom/public/css` should be your final structure.
+1. To install, first check your CustomPath by visiting the admin panel of your instance.
 
-2. Clone the repository
+Mine is `/var/lib/gitea//custom`. You'll need to create 3 directories. Something like `/var/lib/gitea/custom/public/css` should be your final structure.
+
+1. Clone the repository
 `git clone https://github.com/acoolstraw/earl-grey`
 
 3. Move `theme-earl-grey.css` into the `public/css` directory
-`mv earl-grey/theme-earl-grey.css /usr/local/bin/custom/public/css/`
+`cp earl-grey/theme-earl-grey.css /var/lib/gitea/custom/public/css/`
+
+4. Add (or replace) the following to your `app.ini`:
+```
+[ui]
+DEFAULT_THEME = earl-grey
+THEMES        = gitea,arc-green,earl-grey
+```
+
+5. Clean up
+`rm -r earl-grey`
+
+# Development
+Gitea uses Less for styling, keep that in mind when contributing. And you must contribute to `earl-grey.less`, because that's what's being made into `theme-earl-grey.css`

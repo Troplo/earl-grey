@@ -186,7 +186,7 @@
   --color-primary-alpha-70: #3683C0b3;
   --color-primary-alpha-80: #3683C0cc;
   --color-primary-alpha-90: #3683C0e1;
-  --color-secondary: #35373B;
+  --color-secondary: #2C3035;
   --color-secondary-dark-1: #505665;
   --color-secondary-dark-2: #5b6273;
   --color-secondary-dark-3: #71798e;
@@ -204,15 +204,15 @@
   --color-secondary-light-2: #292c34;
   --color-secondary-light-3: #1c1e23;
   --color-secondary-light-4: #0e0f11;
-  --color-secondary-alpha-10: #35373B19;
-  --color-secondary-alpha-20: #35373B33;
-  --color-secondary-alpha-30: #35373B4b;
-  --color-secondary-alpha-40: #35373B66;
-  --color-secondary-alpha-50: #35373B80;
-  --color-secondary-alpha-60: #35373B99;
-  --color-secondary-alpha-70: #35373Bb3;
-  --color-secondary-alpha-80: #35373Bcc;
-  --color-secondary-alpha-90: #35373Be1;
+  --color-secondary-alpha-10: #2C303519;
+  --color-secondary-alpha-20: #2C303533;
+  --color-secondary-alpha-30: #2C30354b;
+  --color-secondary-alpha-40: #2C303566;
+  --color-secondary-alpha-50: #2C303580;
+  --color-secondary-alpha-60: #2C303599;
+  --color-secondary-alpha-70: #2C3035b3;
+  --color-secondary-alpha-80: #2C3035cc;
+  --color-secondary-alpha-90: #2C3035e1;
   --color-red: #da3737;
   --color-orange: #f17a2b;
   --color-yellow: #f3c640;
@@ -247,10 +247,10 @@
   --color-footer: #1D1F23;
   --color-timeline: #4c525e;
   --color-input-text: #d5dbe6;
-  --color-input-background: #35373B;
-  --color-input-border: #35373B;
+  --color-input-background: #2C3035;
+  --color-input-border: #2C3035;
   --color-input-border-hover: #505667;
-  --color-navbar: #24272B;
+  --color-navbar: #24262B;
   --color-light: #00000028;
   --color-light-border: #ffffff28;
   --color-hover: #ffffff10;
@@ -452,7 +452,7 @@ a.ui.ui.ui.green.label:hover {
 .ui.active.button:active,
 .ui.button:active,
 .ui.button:focus {
-  background-color: #35373B;
+  background-color: #2C3035;
   color: #dbdbdb;
 }
 .ui.active.button:hover {
@@ -531,13 +531,13 @@ td.blob-hunk {
 }
 .ui.positive.message {
   background-color: #48915A;
-  color: #3683C0;
+  color: #FFFFFF;
   box-shadow: inset 0 0 0 1px #48915A, 0 0 0 0 transparent;
 }
 .ui.negative.message {
-  background-color: rgba(80, 23, 17, 0.6);
-  color: #f9cbcb;
-  box-shadow: inset 0 0 0 1px rgba(121, 71, 66, 0.5), 0 0 0 0 transparent;
+  background-color: #E14C4C;
+  color: #FFFFFF;
+  box-shadow: inset 0 0 0 1px #E14C4C, 0 0 0 0 transparent;
 }
 .ui.list .list > .item .header,
 .ui.list > .item .header {
@@ -811,3 +811,4 @@ img[src$="/img/matrix.svg"] {
   border: 1px solid rgba(121, 71, 66, 0.5) !important;
   border-bottom: none !important;
 }
+

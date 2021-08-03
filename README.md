@@ -1,2 +1,2 @@
 # earl-grey
-A dark theme for Gitea. Pretty crappy though, I'm not that good at understanding Gitea's frontend. Will correct it as time goes on, please report any issues!
+Elegant dark theme for Gitea. Has a lot of bugs, will correct them as time goes on, please report any issues!

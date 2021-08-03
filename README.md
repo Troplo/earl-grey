@@ -25,6 +25,3 @@ THEMES        = gitea,arc-green,earl-grey
 
 5. Clean up
 `rm -r earl-grey`
-
-# Development
-Gitea uses Less for styling, keep that in mind when contributing. And you must contribute to `earl-grey.less`, because that's what's being made into `theme-earl-grey.css`

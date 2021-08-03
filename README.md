@@ -10,10 +10,12 @@ It's really easy to fix color inconsistencies, just use a color picker to get th
 
 Mine is `/var/lib/gitea//custom`. You'll need to create 3 directories. Something like `/var/lib/gitea/custom/public/css` should be your final structure.
 
-1. Clone the repository
+2. Clone the repository
+   
 `git clone https://github.com/acoolstraw/earl-grey`
 
 3. Move `theme-earl-grey.css` into the `public/css` directory
+   
 `cp earl-grey/theme-earl-grey.css /var/lib/gitea/custom/public/css/`
 
 4. Add (or replace) the following to your `app.ini`:

@@ -1,15 +1,13 @@
 # earl-grey
-Elegant dark theme for Gitea. 
-
-
-
-![image](https://user-images.githubusercontent.com/45886986/128099670-4830eadf-7c40-43de-99e7-f3e2f1c5041a.png)
-
-*Gitea. Earl Grey. Hot.* 
+Elegant dark theme for Gitea. *Gitea. Earl Grey. Hot.* 
 
 I mostly bruteforced which colors to change by inspecting every element with undesirable colors, and I ended up with a theme that I'm quite proud of. However, it will definitely have a lot of bugs, please report them and fix them!
 
 It's really easy to fix color inconsistencies, just use a color picker to get the color, then Inspect Element and go to the styling section. There, CTRL+F and search for the color (note that the letters must be lowercase, the colors whose letters aren't lowercase are most likely added by me)
+
+![gitea-1](https://user-images.githubusercontent.com/45886986/128325883-e9a92c1c-fb01-43f5-8e25-3278b0780e8c.png)
+![gitea-2](https://user-images.githubusercontent.com/45886986/128325892-8092a5de-642a-4168-99aa-80c65477d9c5.png)
+![gitea-3](https://user-images.githubusercontent.com/45886986/128325905-aab0dec5-bd77-4687-a43c-9cb97415949b.png)
 
 # Installation
 1. To install, first check your CustomPath by visiting the admin panel of your instance. Mine is `/var/lib/gitea/custom`. You'll need to create 3 directories. Something like `/var/lib/gitea/custom/public/css` should be your final structure.

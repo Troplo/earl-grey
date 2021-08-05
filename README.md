@@ -1,9 +1,10 @@
 # earl-grey
-Elegant dark theme for Gitea. *Gitea. Earl Grey. Hot.* 
+Elegant dark theme for Gitea.
 
-I mostly bruteforced which colors to change by inspecting every element with undesirable colors, and I ended up with a theme that I'm quite proud of. However, it will definitely have a lot of bugs, please report them and fix them!
+![issues](https://img.shields.io/github/issues/acoolstraw/earl-grey) ![size](https://img.shields.io/github/repo-size/acoolstraw/earl-grey) ![forks](https://img.shields.io/github/forks/acoolstraw/earl-grey?style=social)
 
-It's really easy to fix color inconsistencies, just use a color picker to get the color, then Inspect Element and go to the styling section. There, CTRL+F and search for the color (note that the letters must be lowercase, the colors whose letters aren't lowercase are most likely added by me)
+*Gitea. Earl grey. Hot*
+
 
 ![gitea-1](https://user-images.githubusercontent.com/45886986/128325883-e9a92c1c-fb01-43f5-8e25-3278b0780e8c.png)
 ![gitea-2](https://user-images.githubusercontent.com/45886986/128325892-8092a5de-642a-4168-99aa-80c65477d9c5.png)

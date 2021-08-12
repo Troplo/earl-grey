@@ -455,6 +455,11 @@ a.ui.ui.ui.green.label:hover {
   background-color: #2C2F35;
   color: #dbdbdb;
 }
+.ui.green.button:active, .ui.green.buttons .button:active {
+    background-color: #3683C0;
+    color: #FFFFFF;
+    text-shadow: none;
+}
 .ui.active.button:hover {
   background-color: #474B51;
   color: #dbdbdb;

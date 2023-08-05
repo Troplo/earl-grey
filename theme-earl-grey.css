@@ -827,6 +827,9 @@ img[src$="/img/matrix.svg"] {
   border: 1px solid rgba(121, 71, 66, 0.5) !important;
   border-bottom: none !important;
 }
+.monaco-editor .view-lines {
+	filter: invert(1) !important;
+}
 #navbar .item:hover:not(div) {
     background-color: var(--color-hover);
 }

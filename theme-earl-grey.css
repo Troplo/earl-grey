@@ -827,8 +827,6 @@ img[src$="/img/matrix.svg"] {
   border: 1px solid rgba(121, 71, 66, 0.5) !important;
   border-bottom: none !important;
 }
-
-#navbar .item:hover {
-  background-color: var(--color-nav-bg);
+#navbar .item:hover:not(div) {
+    background-color: var(--color-hover);
 }
-

@@ -162,6 +162,7 @@
   color: #bbbbbb;
 }
 :root {
+  --color-header-wrapper: #24262b;
   --color-nav-bg: #1D1F23;
   --color-primary: #3D84E7;
   --color-primary-dark-1: #739cb3;

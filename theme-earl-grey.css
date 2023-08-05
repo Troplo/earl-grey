@@ -828,3 +828,7 @@ img[src$="/img/matrix.svg"] {
   border-bottom: none !important;
 }
 
+#navbar .item:hover {
+  background-color: var(--color-nav-bg);
+}
+

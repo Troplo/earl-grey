@@ -164,7 +164,7 @@
 :root {
   --color-header-wrapper: #24262b;
   --color-nav-bg: #1D1F23;
-  --color-primary: #3D84E7;
+  --color-primary: #5993e6;
   --color-primary-dark-1: #739cb3;
   --color-primary-dark-2: #40AAFF;
   --color-primary-dark-3: #92b4c4;
@@ -244,6 +244,7 @@
   --color-text-dark: #dbe0ea;
   --color-text: #bbc0ca;
   --color-text-light: #a6aab5;
+  --color-text-light-1: #a6aab5;
   --color-text-light-2: #8a8e99;
   --color-text-light-3: #707687;
   --color-footer: #1D1F23;
@@ -270,6 +271,16 @@
   --color-placeholder-text: #6a737d;
   --color-editor-line-highlight: var(--color-primary-light-5);
   --color-project-board-bg: var(--color-secondary-light-2);
+  --color-label-text: #fff;
+}
+.monaco-editor .line-numbers.active-line-number {
+  --vscode-editorLineNumber-activeForeground: var(--color-primary) !important;
+}
+.monaco-editor .bracket-highlighting-0 {
+  color: var(--color-purple) !important;
+}
+#git-graph-container li .time {
+  color: #84909e !important;
 }
 ::-webkit-calendar-picker-indicator {
   filter: invert(0.8);
@@ -828,9 +839,9 @@ img[src$="/img/matrix.svg"] {
   border: 1px solid rgba(121, 71, 66, 0.5) !important;
   border-bottom: none !important;
 }
-.monaco-editor .view-lines {
-	filter: invert(1) !important;
-}
+
+
+
 #navbar .item:hover:not(div) {
     background-color: var(--color-hover);
 }

@@ -4,6 +4,7 @@
   Repository: https://github.com/Troplo/earl-grey
   License: MIT (https://github.com/Troplo/earl-grey/blob/master/LICENSE) / Copyright (c) 2024 Troplo & Pinnoto
 */
+
 .chroma .hl {
   background-color: #3f424d;
 }
@@ -76,7 +77,7 @@
   color: #1af;
 }
 .chroma .sb {
-  color: #40AAFF;
+  color: #40aaff;
 }
 .chroma .dl,
 .chroma .sc {
@@ -86,7 +87,7 @@
   color: #6a737d;
 }
 .chroma .s2 {
-  color: #40AAFF;
+  color: #40aaff;
 }
 .chroma .se {
   color: #f63;
@@ -102,7 +103,7 @@
   color: #97c;
 }
 .chroma .s1 {
-  color: #40AAFF;
+  color: #40aaff;
 }
 .chroma .ss {
   color: #fa1;
@@ -174,32 +175,32 @@
   --color-overlay-backdrop: #080808c0;
   --color-primary-contrast: black;
   --color-header-wrapper: #24262b;
-  --color-nav-bg: #1D1F23;
+  --color-nav-bg: #1d1f23;
   --color-primary: #5993e6;
   --color-primary-dark-1: #739cb3;
-  --color-primary-dark-2: #40AAFF;
+  --color-primary-dark-2: #40aaff;
   --color-primary-dark-3: #92b4c4;
   --color-primary-dark-4: #a1bbcd;
   --color-primary-dark-5: #cfddc1;
   --color-primary-dark-6: #e7eee0;
   --color-primary-dark-7: #f8faf6;
-  --color-primary-light-1: #3D84E7;
+  --color-primary-light-1: #3d84e7;
   --color-primary-light-2: #437aad;
   --color-primary-light-3: #415b8b;
   --color-primary-light-4: #25425a;
   --color-primary-light-5: #223546;
   --color-primary-light-6: #131923;
   --color-primary-light-7: #06090b;
-  --color-primary-alpha-10: #3683C019;
-  --color-primary-alpha-20: #3683C033;
-  --color-primary-alpha-30: #3683C04b;
-  --color-primary-alpha-40: #3683C066;
-  --color-primary-alpha-50: #3683C080;
-  --color-primary-alpha-60: #3683C099;
-  --color-primary-alpha-70: #3683C0b3;
-  --color-primary-alpha-80: #3683C0cc;
-  --color-primary-alpha-90: #3683C0e1;
-  --color-secondary: #2C2F35;
+  --color-primary-alpha-10: #3683c019;
+  --color-primary-alpha-20: #3683c033;
+  --color-primary-alpha-30: #3683c04b;
+  --color-primary-alpha-40: #3683c066;
+  --color-primary-alpha-50: #3683c080;
+  --color-primary-alpha-60: #3683c099;
+  --color-primary-alpha-70: #3683c0b3;
+  --color-primary-alpha-80: #3683c0cc;
+  --color-primary-alpha-90: #3683c0e1;
+  --color-secondary: #2c2f35;
   --color-secondary-dark-1: #505665;
   --color-secondary-dark-2: #5b6273;
   --color-secondary-dark-3: #71798e;
@@ -217,15 +218,15 @@
   --color-secondary-light-2: #292c34;
   --color-secondary-light-3: #1c1e23;
   --color-secondary-light-4: #0e0f11;
-  --color-secondary-alpha-10: #2C2F35;
-  --color-secondary-alpha-20: #2C2F3533;
-  --color-secondary-alpha-30: #2C2F354b;
-  --color-secondary-alpha-40: #2C2F3566;
-  --color-secondary-alpha-50: #2C2F3580;
-  --color-secondary-alpha-60: #2C2F3599;
-  --color-secondary-alpha-70: #2C2F35b3;
-  --color-secondary-alpha-80: #2C2F35cc;
-  --color-secondary-alpha-90: #2C2F35e1;
+  --color-secondary-alpha-10: #2c2f35;
+  --color-secondary-alpha-20: #2c2f3533;
+  --color-secondary-alpha-30: #2c2f354b;
+  --color-secondary-alpha-40: #2c2f3566;
+  --color-secondary-alpha-50: #2c2f3580;
+  --color-secondary-alpha-60: #2c2f3599;
+  --color-secondary-alpha-70: #2c2f35b3;
+  --color-secondary-alpha-80: #2c2f35cc;
+  --color-secondary-alpha-90: #2c2f35e1;
   --color-red: #da3737;
   --color-orange: #f17a2b;
   --color-yellow: #f3c640;
@@ -247,38 +248,38 @@
   --color-diff-added-row-bg: #283e2d;
   --color-diff-removed-row-border: #634343;
   --color-diff-added-row-border: #314a37;
-  --color-diff-inactive: #1D1F23;
-  --color-body: #1D1F23;
+  --color-diff-inactive: #1d1f23;
+  --color-body: #1d1f23;
   /* main body color */
-  --color-box-header: #1D1F23;
-  --color-box-body: #1D1F23;
+  --color-box-header: #1d1f23;
+  --color-box-body: #1d1f23;
   --color-text-dark: #dbe0ea;
   --color-text: #bbc0ca;
   --color-text-light: #a6aab5;
   --color-text-light-1: #a6aab5;
   --color-text-light-2: #8a8e99;
   --color-text-light-3: #707687;
-  --color-footer: #1D1F23;
+  --color-footer: #1d1f23;
   --color-timeline: #4c525e;
   --color-input-text: #d5dbe6;
-  --color-input-background: #2C2F35;
-  --color-input-border: #2C2F35;
+  --color-input-background: #2c2f35;
+  --color-input-border: #2c2f35;
   --color-input-border-hover: #505667;
-  --color-navbar: #24262B;
+  --color-navbar: #24262b;
   --color-light: #00000028;
   --color-light-border: #ffffff28;
   --color-hover: #ffffff10;
   --color-active: #ffffff16;
-  --color-menu: #1D1F23;
-  --color-card: #1D1F23;
+  --color-menu: #1d1f23;
+  --color-card: #1d1f23;
   --color-markdown-table-row: #ffffff06;
-  --color-markdown-code-block: #2C2F35;
-  --color-button: #1D1F23;
-  --color-code-bg: #1D1F23;
+  --color-markdown-code-block: #2c2f35;
+  --color-button: #1d1f23;
+  --color-code-bg: #1d1f23;
   --color-shadow: #00000060;
-  --color-secondary-bg: #2C2F35;
+  --color-secondary-bg: #2c2f35;
   --color-text-focus: #fff;
-  --color-expand-button: #2C2F35;
+  --color-expand-button: #2c2f35;
   --color-placeholder-text: #6a737d;
   --color-editor-line-highlight: var(--color-primary-light-5);
   --color-project-board-bg: var(--color-secondary-light-2);
@@ -297,7 +298,7 @@
   filter: invert(0.8);
 }
 .ui.horizontal.segments > .segment {
-  background-color: #2C2F35;
+  background-color: #2c2f35;
 }
 .repository .segment.reactions .ui.label.basic.blue {
   background: var(--color-primary-alpha-20) !important;
@@ -326,14 +327,14 @@
   background-color: #7b9e57 !important;
 }
 .following.bar.light {
-  background: #1D1F23;
+  background: #1d1f23;
   border-color: var(--color-secondary-alpha-40);
 }
 .following.bar .top.menu a.item:hover {
   color: #fff;
 }
 .feeds .list ul li.private {
-  background: #1D1F23;
+  background: #1d1f23;
 }
 .ui.link.list .item,
 .ui.link.list .item a:not(.ui),
@@ -342,7 +343,7 @@
 }
 .ui.red.label,
 .ui.red.labels .label {
-  background-color: #E14C4C !important;
+  background-color: #e14c4c !important;
   border-color: #8a2121 !important;
 }
 .ui.yellow.label,
@@ -356,8 +357,8 @@
 .ui.basic.green.label,
 .ui.green.label,
 .ui.green.labels .label {
-  background-color: #0060AC !important;
-  border-color: #0060AC !important;
+  background-color: #0060ac !important;
+  border-color: #0060ac !important;
 }
 .ui.basic.green.labels a.label:hover,
 .ui.green.labels a.label:hover,
@@ -378,49 +379,49 @@ a.ui.ui.ui.green.label:hover {
   color: #7f8699 !important;
 }
 .ui.form .field.error input:not([type]),
-.ui.form .field.error input[type=date],
-.ui.form .field.error input[type=datetime-local],
-.ui.form .field.error input[type=email],
-.ui.form .field.error input[type=file],
-.ui.form .field.error input[type=number],
-.ui.form .field.error input[type=password],
-.ui.form .field.error input[type=search],
-.ui.form .field.error input[type=tel],
-.ui.form .field.error input[type=text],
-.ui.form .field.error input[type=time],
-.ui.form .field.error input[type=url],
+.ui.form .field.error input[type="date"],
+.ui.form .field.error input[type="datetime-local"],
+.ui.form .field.error input[type="email"],
+.ui.form .field.error input[type="file"],
+.ui.form .field.error input[type="number"],
+.ui.form .field.error input[type="password"],
+.ui.form .field.error input[type="search"],
+.ui.form .field.error input[type="tel"],
+.ui.form .field.error input[type="text"],
+.ui.form .field.error input[type="time"],
+.ui.form .field.error input[type="url"],
 .ui.form .field.error select,
 .ui.form .field.error textarea,
 .ui.form .fields.error .field input:not([type]),
-.ui.form .fields.error .field input[type=date],
-.ui.form .fields.error .field input[type=datetime-local],
-.ui.form .fields.error .field input[type=email],
-.ui.form .fields.error .field input[type=file],
-.ui.form .fields.error .field input[type=number],
-.ui.form .fields.error .field input[type=password],
-.ui.form .fields.error .field input[type=search],
-.ui.form .fields.error .field input[type=tel],
-.ui.form .fields.error .field input[type=text],
-.ui.form .fields.error .field input[type=time],
-.ui.form .fields.error .field input[type=url],
+.ui.form .fields.error .field input[type="date"],
+.ui.form .fields.error .field input[type="datetime-local"],
+.ui.form .fields.error .field input[type="email"],
+.ui.form .fields.error .field input[type="file"],
+.ui.form .fields.error .field input[type="number"],
+.ui.form .fields.error .field input[type="password"],
+.ui.form .fields.error .field input[type="search"],
+.ui.form .fields.error .field input[type="tel"],
+.ui.form .fields.error .field input[type="text"],
+.ui.form .fields.error .field input[type="time"],
+.ui.form .fields.error .field input[type="url"],
 .ui.form .fields.error .field select,
 .ui.form .fields.error .field textarea {
   background-color: #522;
-  border: 1px solid #E14C4C;
+  border: 1px solid #e14c4c;
   color: #f9cbcb;
 }
 .ui.form .field.error input:not([type]):focus,
-.ui.form .field.error input[type=date]:focus,
-.ui.form .field.error input[type=datetime-local]:focus,
-.ui.form .field.error input[type=email]:focus,
-.ui.form .field.error input[type=file]:focus,
-.ui.form .field.error input[type=number]:focus,
-.ui.form .field.error input[type=password]:focus,
-.ui.form .field.error input[type=search]:focus,
-.ui.form .field.error input[type=tel]:focus,
-.ui.form .field.error input[type=text]:focus,
-.ui.form .field.error input[type=time]:focus,
-.ui.form .field.error input[type=url]:focus,
+.ui.form .field.error input[type="date"]:focus,
+.ui.form .field.error input[type="datetime-local"]:focus,
+.ui.form .field.error input[type="email"]:focus,
+.ui.form .field.error input[type="file"]:focus,
+.ui.form .field.error input[type="number"]:focus,
+.ui.form .field.error input[type="password"]:focus,
+.ui.form .field.error input[type="search"]:focus,
+.ui.form .field.error input[type="tel"]:focus,
+.ui.form .field.error input[type="text"]:focus,
+.ui.form .field.error input[type="time"]:focus,
+.ui.form .field.error input[type="url"]:focus,
 .ui.form .field.error select:focus {
   background-color: #522;
   border: 1px solid #a04141;
@@ -429,17 +430,19 @@ a.ui.ui.ui.green.label:hover {
 .ui.green.button,
 .ui.green.buttons .button,
 .ui.primary.button,
-.ui.primary.buttons .button  {
+.ui.primary.buttons .button,
+.ui.primary.sha.label {
   background-color: var(--color-primary) !important;
 }
 .ui.green.button:hover,
 .ui.green.buttons .button:hover,
 .ui.primary.button:hover,
-.ui.primary.buttons .button:hover {
+.ui.primary.buttons .button:hover,
+.ui.primary.sha.label:hover {
   background-color: var(--color-primary-light-2) !important;
 }
 .ui.search > .results {
-  background: #1D1F23;
+  background: #1d1f23;
   border-color: var(--color-secondary);
 }
 .ui.category.search > .results .category .result:hover,
@@ -454,10 +457,10 @@ a.ui.ui.ui.green.label:hover {
   color: #dbdbdb !important;
 }
 .repository.file.list #repo-files-table tr {
-  background: #1D1F23;
+  background: #1d1f23;
 }
 .repository.file.list #repo-files-table tr:hover {
-  background-color: #24262B !important;
+  background-color: #24262b !important;
 }
 .repository.file.editor.edit + .editor-preview-side,
 .repository.file.editor.edit .editor-preview,
@@ -465,14 +468,27 @@ a.ui.ui.ui.green.label:hover {
 .repository.wiki.new .CodeMirror + .editor-preview-side,
 .repository.wiki.new .CodeMirror .editor-preview,
 .repository.wiki.new .CodeMirror .editor-preview-side {
-  background: #24262B;
+  background: #24262b;
 }
-.repository.file.editor.edit + .editor-preview-side .markdown:not(code).ui.segment,
-.repository.file.editor.edit .editor-preview-side .markdown:not(code).ui.segment,
+.repository.file.editor.edit
+  + .editor-preview-side
+  .markdown:not(code).ui.segment,
+.repository.file.editor.edit
+  .editor-preview-side
+  .markdown:not(code).ui.segment,
 .repository.file.editor.edit .editor-preview .markdown:not(code).ui.segment,
-.repository.wiki.new .CodeMirror + .editor-preview-side .markdown:not(code).ui.segment,
-.repository.wiki.new .CodeMirror .editor-preview-side .markdown:not(code).ui.segment,
-.repository.wiki.new .CodeMirror .editor-preview .markdown:not(code).ui.segment {
+.repository.wiki.new
+  .CodeMirror
+  + .editor-preview-side
+  .markdown:not(code).ui.segment,
+.repository.wiki.new
+  .CodeMirror
+  .editor-preview-side
+  .markdown:not(code).ui.segment,
+.repository.wiki.new
+  .CodeMirror
+  .editor-preview
+  .markdown:not(code).ui.segment {
   border-width: 0;
 }
 .overflow.menu .items .item {
@@ -488,21 +504,29 @@ a.ui.ui.ui.green.label:hover {
 .ui.active.button:active,
 .ui.button:active,
 .ui.button:focus {
-  background-color: #2C2F35;
-  color: #dbdbdb;
+  background-color: #2c2f35;
+  /*  color: #dbdbdb; */
 }
-.ui.green.button:active, .ui.green.buttons .button:active, .ui.primary.button:active, ui.primary.buttons .button:active {
-    background-color: var(--color-primary);
-    color: var(--color-primary-contrast);
-    text-shadow: none;
+.ui.green.button:active,
+.ui.green.buttons .button:active,
+.ui.primary.button:active,
+ui.primary.buttons .button:active {
+  background-color: var(--color-primary);
+  color: var(--color-primary-contrast) !important;
+  text-shadow: none;
 }
-.ui.green.button:focus, .ui.green.buttons .button:focus {
-    background-color: var(--color-primary);
-    color: var(--color-primary-contrast);
-    text-shadow: none;
+.ui.green.button,
+.ui.primary.button {
+  color: var(--color-primary-contrast) !important;
+}
+.ui.green.button:focus,
+.ui.green.buttons .button:focus {
+  background-color: var(--color-primary);
+  color: var(--color-primary-contrast) !important;
+  text-shadow: none;
 }
 .ui.active.button:hover {
-  background-color: #474B51;
+  background-color: #474b51;
   color: #dbdbdb;
 }
 .repository .navbar .active.item,
@@ -517,7 +541,7 @@ a.ui.ui.ui.green.label:hover {
 }
 .tag-code,
 .tag-code td {
-  background: #24262B !important;
+  background: #24262b !important;
 }
 .tag-code td.lines-num {
   background-color: #3a3e4c !important;
@@ -532,10 +556,10 @@ td.blob-hunk {
 }
 .ui.bottom.attached.message {
   background-color: #2c662d;
-  color: #3683C0;
+  color: white;
 }
 .ui.bottom.attached.message .pull-right {
-  color: #3683C0;
+  color: #3683c0;
 }
 .ui.info.message {
   background-color: #2c3b4a;
@@ -569,7 +593,7 @@ td.blob-hunk {
 }
 .ui.red.button,
 .ui.red.buttons .button {
-  background-color: #E14C4C;
+  background-color: #e14c4c;
   color: black;
 }
 .ui.red.button:hover,
@@ -578,14 +602,14 @@ td.blob-hunk {
   color: black;
 }
 .ui.positive.message {
-  background-color: #48915A;
-  color: #FFFFFF;
-  box-shadow: inset 0 0 0 1px #48915A, 0 0 0 0 transparent;
+  background-color: #48915a;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 1px #48915a, 0 0 0 0 transparent;
 }
 .ui.negative.message {
-  background-color: #E14C4C;
-  color: #FFFFFF;
-  box-shadow: inset 0 0 0 1px #E14C4C, 0 0 0 0 transparent;
+  background-color: #e14c4c;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 1px #e14c4c, 0 0 0 0 transparent;
 }
 .ui.list .list > .item .header,
 .ui.list > .item .header {
@@ -597,14 +621,14 @@ td.blob-hunk {
 }
 .repository.file.list #repo-files-table tbody .svg.octicon-file-directory,
 .repository.file.list #repo-files-table tbody .svg.octicon-file-submodule {
-  color: #9AA0AF;
+  color: #9aa0af;
 }
 .repository.labels .ui.basic.black.label {
   background-color: #bbbbbb !important;
 }
 .blame .lines-num,
 .lines-commit {
-  background: #1D1F23 !important;
+  background: #1d1f23 !important;
 }
 .lines-num {
   color: var(--color-secondary-dark-6) !important;
@@ -631,13 +655,13 @@ td.blob-excerpt {
   color: var(--color-secondary-dark-6);
 }
 .repository .ui.attached.message.isSigned.isVerified.message {
-  color: #3683C0;
+  color: #3683c0;
 }
 .repository .ui.attached.message.isSigned.isVerified.message .ui.text {
   color: var(--color-secondary-dark-6);
 }
 .repository .ui.attached.message.isSigned.isVerified.message .pull-right {
-  color: #3683C0;
+  color: #3683c0;
 }
 .repository .ui.attached.message.isSigned.isVerifiedUntrusted {
   background-color: #4a3903;
@@ -687,7 +711,7 @@ td.blob-excerpt {
   border-color: var(--color-secondary);
 }
 .ui.modal > .content {
-  background: #1D1F23;
+  background: #1d1f23;
 }
 .minicolors-panel {
   background: var(--color-secondary) !important;
@@ -707,12 +731,12 @@ td.blob-excerpt {
 .emoji[aria-label="TOP arrow"],
 .emoji[aria-label="trade mark"],
 .emoji[aria-label="wavy dash"],
-.emoji[aria-label=copyright],
-.emoji[aria-label=divide],
-.emoji[aria-label=minus],
-.emoji[aria-label=multiply],
-.emoji[aria-label=plus],
-.emoji[aria-label=registered] {
+.emoji[aria-label="copyright"],
+.emoji[aria-label="divide"],
+.emoji[aria-label="minus"],
+.emoji[aria-label="multiply"],
+.emoji[aria-label="plus"],
+.emoji[aria-label="registered"] {
   filter: invert(100%);
 }
 .edit-diff > div > .ui.table {
@@ -721,7 +745,7 @@ td.blob-excerpt {
 }
 .CodeMirror.cm-s-default .cm-property,
 .CodeMirror.cm-s-paper .cm-property {
-  color: #40AAFF;
+  color: #40aaff;
 }
 .CodeMirror.cm-s-default .cm-header,
 .CodeMirror.cm-s-paper .cm-header {
@@ -813,13 +837,17 @@ footer .container .links > * {
 }
 .repository.release #release-list > li .detail .dot {
   background-color: #505667;
-  border-color: #1D1F23;
+  border-color: #1d1f23;
 }
 .tribute-container {
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.6);
 }
-.repository .repo-header .ui.huge.breadcrumb.repo-title .repo-header-icon .avatar {
-  color: #1D1F23;
+.repository
+  .repo-header
+  .ui.huge.breadcrumb.repo-title
+  .repo-header-icon
+  .avatar {
+  color: #1d1f23;
 }
 img[src$="/img/matrix.svg"] {
   filter: invert(80%);
@@ -835,11 +863,15 @@ img[src$="/img/matrix.svg"] {
   stroke: darkgrey;
   fill: darkgrey;
 }
-#git-graph-container:not(.monochrome) #rel-container .flow-group.flow-color-16-5 {
+#git-graph-container:not(.monochrome)
+  #rel-container
+  .flow-group.flow-color-16-5 {
   stroke: #5543b1;
   fill: #5543b1;
 }
-#git-graph-container:not(.monochrome) #rel-container .flow-group.highlight.flow-color-16-5 {
+#git-graph-container:not(.monochrome)
+  #rel-container
+  .flow-group.highlight.flow-color-16-5 {
   stroke: #7058e6;
   fill: #7058e6;
 }
@@ -861,9 +893,17 @@ img[src$="/img/matrix.svg"] {
 }
 
 #navbar .item:hover:not(div) {
-    background-color: var(--color-hover);
+  background-color: var(--color-hover);
 }
 
 .ui.secondary.pointing.menu {
   border: 0 !important;
+}
+
+.monaco-editor .view-lines {
+  filter: invert(1) !important;
+}
+
+.monaco-editor .mtk1 {
+  color: black;
 }

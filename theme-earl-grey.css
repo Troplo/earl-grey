@@ -1,3 +1,9 @@
+/*
+  Earl Grey theme for Gitea
+  Version: 1.0.37
+  Repository: https://github.com/Troplo/earl-grey
+  License: MIT (https://github.com/Troplo/earl-grey/blob/master/LICENSE) / Copyright (c) 2024 Troplo & Pinnoto
+*/
 .chroma .hl {
   background-color: #3f424d;
 }
@@ -162,6 +168,11 @@
   color: #bbbbbb;
 }
 :root {
+  --color-secondary-nav-bg: var(--color-header-wrapper);
+  --color-label-bg: var(--color-light-border);
+  --color-label-bg-alt: var(--color-light-border);
+  --color-overlay-backdrop: #080808c0;
+  --color-primary-contrast: black;
   --color-header-wrapper: #24262b;
   --color-nav-bg: #1D1F23;
   --color-primary: #5993e6;
@@ -292,10 +303,18 @@
   background: var(--color-primary-alpha-20) !important;
 }
 [data-tooltip]:after,
-[data-tooltip]:before {
-  background: #1b1c1d !important;
-  border-color: #1b1c1d !important;
+[data-tooltip]:before,
+.tippy-box {
+  background: var(--color-header-wrapper) !important;
   color: #dbdbdb !important;
+  border: 1px solid var(--color-secondary-dark-1) !important;
+}
+.tippy-svg-arrow {
+  fill: var(--color-header-wrapper) !important;
+}
+.tippy-svg-arrow-outer {
+  stroke: var(--color-secondary-dark-1) !important;
+  stroke-width: 0.7px !important;
 }
 [data-tooltip]:before {
   box-shadow: 1px 1px 0 0 #1b1c1d !important;
@@ -408,12 +427,16 @@ a.ui.ui.ui.green.label:hover {
   color: #f9cbcb;
 }
 .ui.green.button,
-.ui.green.buttons .button {
-  background-color: #3683C0;
+.ui.green.buttons .button,
+.ui.primary.button,
+.ui.primary.buttons .button  {
+  background-color: var(--color-primary) !important;
 }
 .ui.green.button:hover,
-.ui.green.buttons .button:hover {
-  background-color: #40AAFF;
+.ui.green.buttons .button:hover,
+.ui.primary.button:hover,
+.ui.primary.buttons .button:hover {
+  background-color: var(--color-primary-light-2) !important;
 }
 .ui.search > .results {
   background: #1D1F23;
@@ -468,19 +491,14 @@ a.ui.ui.ui.green.label:hover {
   background-color: #2C2F35;
   color: #dbdbdb;
 }
-.ui.green.button:active, .ui.green.buttons .button:active {
-    background-color: #40AAFF;
-    color: #FFFFFF;
-    text-shadow: none;
-}
-.ui.green.button:active, .ui.green.buttons .button:active {
-    background-color: #40AAFF;
-    color: #FFFFFF;
+.ui.green.button:active, .ui.green.buttons .button:active, .ui.primary.button:active, ui.primary.buttons .button:active {
+    background-color: var(--color-primary);
+    color: var(--color-primary-contrast);
     text-shadow: none;
 }
 .ui.green.button:focus, .ui.green.buttons .button:focus {
-    background-color: #40AAFF;
-    color: #FFFFFF;
+    background-color: var(--color-primary);
+    color: var(--color-primary-contrast);
     text-shadow: none;
 }
 .ui.active.button:hover {
@@ -552,10 +570,12 @@ td.blob-hunk {
 .ui.red.button,
 .ui.red.buttons .button {
   background-color: #E14C4C;
+  color: black;
 }
 .ui.red.button:hover,
 .ui.red.buttons .button:hover {
   background-color: #984646;
+  color: black;
 }
 .ui.positive.message {
   background-color: #48915A;
@@ -840,8 +860,10 @@ img[src$="/img/matrix.svg"] {
   border-bottom: none !important;
 }
 
-
-
 #navbar .item:hover:not(div) {
     background-color: var(--color-hover);
+}
+
+.ui.secondary.pointing.menu {
+  border: 0 !important;
 }

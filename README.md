@@ -1,7 +1,7 @@
 # earl-grey
-Elegant dark theme for Gitea.
+Elegant dark theme for Gitea & Forgejo.
 
-![issues](https://img.shields.io/github/issues/acoolstraw/earl-grey) ![size](https://img.shields.io/github/repo-size/acoolstraw/earl-grey) ![forks](https://img.shields.io/github/forks/acoolstraw/earl-grey?style=social)
+![issues](https://img.shields.io/github/issues/Troplo/earl-grey) ![size](https://img.shields.io/github/repo-size/Troplo/earl-grey) ![forks](https://img.shields.io/github/forks/Troplo/earl-grey?style=social)
 
 *Gitea. Earl grey. Hot*
 

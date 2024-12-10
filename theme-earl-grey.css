@@ -1,6 +1,6 @@
 /*
   Earl Grey theme for Gitea
-  Version: 1.0.40
+  Version: 1.0.41
   Repository: https://github.com/Troplo/earl-grey
   License: MIT (https://github.com/Troplo/earl-grey/blob/master/LICENSE) / Copyright (c) 2024 Troplo & Pinnoto
 */
@@ -434,6 +434,10 @@ a.ui.ui.ui.green.label:hover {
 .ui.primary.sha.label {
   background-color: var(--color-primary) !important;
 }
+/* Basic button type has an outline instead of filled */
+.ui.button:not(.basic) {
+  border: 0;
+}
 .ui.green.button:hover,
 .ui.green.buttons .button:hover,
 .ui.primary.button:hover,
@@ -581,15 +585,16 @@ td.blob-hunk {
 .ui.red.message {
   background-color: #522;
   color: #f9cbcb;
+  border-color: #a04141 !important;
   box-shadow: inset 0 0 0 1px #a04141;
 }
 .ui .error.header,
 .ui.error.message {
   background-color: #522 !important;
-  border-color: #a04141;
+  border-color: #a04141 !important;
 }
 .ui.error.segment {
-  border-color: #a04141;
+  border-color: #a04141 !important;
 }
 .ui.red.button,
 .ui.red.buttons .button {
@@ -906,4 +911,17 @@ img[src$="/img/matrix.svg"] {
 
 .monaco-editor .mtk1 {
   color: black;
+}
+
+.repo-header .flex-item-title .muted {
+  color: var(--color-primary) !important;
+}
+
+.flex-list .ui.basic.label {
+  margin-left: 2px;
+  padding: 2px 4px 2px 4px !important;
+}
+
+.repo-list-link.muted {
+  color: var(--color-primary) !important;
 }
